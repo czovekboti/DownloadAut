@@ -19,8 +19,6 @@ with open(os.path.join(test, file_names[2] ),'wb') as file:
     pass
 
 automation.organizeFiles(test)
-#list of folders in Test
-folders = os.listdir(test)
 asserted_names = ["Executables", "Text Files", "PDFs" ]
 # Get list of created folders
 folders = os.listdir(test)
