@@ -1,7 +1,7 @@
 import os 
 import shutil
 #folder to be organized
-downloads_folder = '/home/czovekb/Downloads/'
+downloads_folder = os.path.expanduser("~/Downloads")
 # list of file types
 folder_types = {
      ".pdf": "PDFs",
